@@ -1,11 +1,11 @@
 End goal - a .exe/python file that can take the following parameters:
---abstraction path/to/abstraction/params.json
---continueabstraction path/to/big/file optional/path/to/last/infostate/found.txt
---runcfr path/to/big/file optional/save/params.txt
---gamer path/to/big/file
+ - abstraction path/to/abstraction/params.json (includes file path to big file) --o /path/to/last/infostate/found.txt
+ - runcfr path/to/big/file --o /savestate/params.txt
+ - gamer path/to/big/file
 
 - abstraction makes an abstraction of heads up texas hold em to the specs of the file
-- continueabstraction continues the work if needs to continue
+- runcfr trains given the file
+- gamer allows user input for running
 
 Milestones:
 - [ ] Make abstraction/middleman classes (allow saving on ctrl+c)
