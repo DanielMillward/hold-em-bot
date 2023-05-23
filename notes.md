@@ -11,6 +11,16 @@
 
 18 bytes
 
+Goal sizes:
+Can Check: 2
+P1 or P2: 2
+Round: 4
+Stack/bet sizes: 1500
+card abstraction sizes: 2500
+- 169 / 770 / 770 / 770
+- Adding, since after each round a bunch of branches merge since you don't remember what happened in the previous hand
+
+
 
 3,140,844,486 x 5980 * 5980 * 2 * 2 * 6000 * 4 = 
 10,782,514,000,000,000,000,000

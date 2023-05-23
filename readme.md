@@ -11,6 +11,7 @@ Milestones:
 - [ ] Make abstraction/middleman classes (allow saving on ctrl+c)
 - [ ] Make runCFR class (allow saving on ctrl+c)
 - [ ] Make gamer class
+- [ ] Use the updated clustering algo in the paper instead of just histograms
 - [ ] convert dictionary to perfect minimal hashmap, compare space of big files
 - [ ] Make visual breakdown of function runtimes
 - [ ] Within python, do algo optimization/adding multithreading
