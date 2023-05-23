@@ -40,7 +40,12 @@ class CardCentroidTest(unittest.TestCase):
         #Card.print_pretty_cards(board + hand)
         result = self.cc.getEquityAllCards(hand, tableCards=board)
         self.assertAlmostEqual(0.856, result, places=3)
-        pass
+        
+    def test_makeHistogram(self):
+        hand = ['Kc', 'Qc']
+        result = self.cc.makeHistogram(hand)
+        print(result)
+        
 
 
 if __name__ == "__main__":
