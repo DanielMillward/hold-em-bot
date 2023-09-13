@@ -1,3 +1,5 @@
+An attempt to use the CFR algorithm to solve heads up no limit Texas Hold'em. 
+
 End goal - a .exe/python file that can take the following parameters:
  - abstraction path/to/abstraction/params.json (includes file path to big file) --o /path/to/last/infostate/found.txt
  - runcfr path/to/big/file --o /savestate/params.txt
